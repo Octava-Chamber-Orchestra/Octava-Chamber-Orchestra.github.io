@@ -1,0 +1,42 @@
+# Note: this will need to change if permanent daylight time is implemented.
+timezone: America/Los_Angeles
+
+# Necessary for concerts set in the future to be displayed.
+future: true
+
+permalink: pretty
+
+excludes:
+  - README.md
+
+collections:
+  concerts:
+    output: true
+    sort_by: date
+  musicians:
+    output: true
+    sort_by: priority
+  main_pages:
+    output: true
+    sort_by: menu_order
+    permalink: /:name/
+  sub_pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  -
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: concerts
+    values:
+      layout: concert
+  -
+    scope:
+      path: ""
+      type: musicians
+    values:
+      layout: musician

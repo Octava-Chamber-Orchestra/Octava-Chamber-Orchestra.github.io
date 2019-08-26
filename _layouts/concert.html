@@ -1,0 +1,32 @@
+---
+layout: page
+---
+{% if page.poster_artist %}
+<a href="../poster.jpg" download style="display:block;margin:auto;" class="no-hover">
+    <img src="../poster.jpg" alt="{{ page.title }}">
+</a>
+    {% if page.poster_artist != "anonymous" %}
+        <p style="text-align:center;">
+            Poster by
+            {% if page.poster_artist_url %}
+                <a href="{{ page.poster_artist_url }}">{{ page.poster_artist }}</a>
+            {% else %}
+                {{ page.poster_artist }}
+            {% endif %}
+        </p>
+    {% endif %}
+{% endif %}
+<p>
+    {% if page.date < site.time %}
+        Performed on {{ page.date | date: "%B %-d, %Y"}}
+    {% else %}
+        {{ page.date | date: "%A, %B %-d %-I:%M%P" }}
+    {% endif %}
+    {% if page.location %}
+        <br>
+        <a href="{{ page.location_url }}">{{ page.location }}</a>
+        <br>
+        {{ page.address }}
+    {% endif %}
+</p>
+{{ content }}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo.jpg" alt="The Octava Chamber Orchestra with Maestro Johan Louwersheimer">
+      {% assign upcoming_concert = 
+        site.concerts |
+        where_exp:"concert","concert.date > site.data.settings.concert_date" |
+        first
+      %}
+      {% if upcoming_concert and upcoming_concert != page %}
+      <div id="upcoming-concert">
+          <span>
+            <p style="font-size:1.5em;font-weight:bold;">
+              <a href="{{ upcoming_concert.url }}">
+                {{ upcoming_concert.title }}
+              </a>
+            </p>
+            <p style="font-size:1.3em;">
+              {{ upcoming_concert.date | date: "%A, %B %-d %-I:%M%P"}}
+            </p>
+            <p>
+              <a href="{{ upcoming_concert.location_url }}">
+                {{ upcoming_concert.location }}
+              </a>
+            </p>
+            <p>
+              {{ upcoming_concert.address }}
+            </p>
+            <p>
+              {{ upcoming_concert.phone }}
+            </p>
+          </span>
+      </div>
+      {% endif %}
+      <nav>
+        {% for main_page in site.main_pages %}<a href="{{ main_page.url }}">{{ main_page.menu_title }}</a>{% endfor %}
+      </nav>
+      <div id="header-sponsors">
+        {% for sponsor in site.data.settings.header_sponsors %}<a href="{{ sponsor.url }}"><img src="/assets/header-sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>{% endfor %}<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="6965558">
+            <input type="image" src="/assets/donate.png" name="submit" alt="Donate with PayPal">
+          </form>
+      </div>
+    </header>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <div>
+          {{ content }}
+      </div>
+    </article>
+    <footer>
+      <p>Copyright &copy; 2007-{{ 'now' | date: "%Y" }} by The Octava Chamber Orchestra. All rights reserved.</p>
+      <p>
+        The Octava Chamber Orchestra and the Octava Chamber Orchestra logo are registered
+        trademarks of The Octava Chamber Orchestra.
+      </p>
+    </footer>
+  </body>
+</html>

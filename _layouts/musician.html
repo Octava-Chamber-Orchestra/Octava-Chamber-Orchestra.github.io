@@ -1,0 +1,8 @@
+---
+layout: page
+---
+{% if page.photo %}
+<img src="../photo.jpg" alt="{{ page.title }}" style="display:block;margin:auto;border: solid 2px #000;border-radius:2px;">
+{% endif %}
+<strong style="display:block;text-align:center;font-style:italic;font-size:1.3em;margin:10px 0px;">{{ page.role }}</strong>
+{{ content }}

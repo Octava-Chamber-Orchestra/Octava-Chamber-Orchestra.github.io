@@ -1,0 +1,19 @@
+---
+title: Octava Concerts
+menu_order: 2
+menu_title: concerts
+---
+<h2>Upcoming</h2>
+<p>For tickets and programs, click the concert you wish to know about.</p>
+{% assign upcoming_concerts = site.concerts | where_exp: "concert","concert.date > site.data.settings.concert_date" %}
+{% for concert in upcoming_concerts %}
+    <h3><a href="{{ concert.url }}">{{ concert.title }}</a></h3>
+    <p>{{ concert.date | date: "%A, %B %-d %-I:%M%P" }}</p>
+{% endfor %}
+<h2>Past</h2>
+<p>View the posters, programs, and rosters of past concerts. Recordings are also available here.</p>
+{% assign past_concerts = site.concerts | where_exp: "concert","concert.date < site.data.settings.concert_date" | reverse %}
+{% for concert in past_concerts %}
+    <h3><a href="{{ concert.url }}">{{ concert.title }}</a></h3>
+    <p>{{ concert.date | date: "%B %-d, %Y" }}</p>
+{% endfor %}
