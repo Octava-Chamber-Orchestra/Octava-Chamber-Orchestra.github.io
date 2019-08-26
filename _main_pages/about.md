@@ -23,7 +23,7 @@ To recieve updates from Octava, enter your email address:
 <input type="hidden" name="p" value="oi">
 <input style="display:inline-block;width:200px;max-width:100%;" type="text" name="ea">
 <input type="submit" name="go" value="Go">
-<img style="display:inline-block;vertical-align:middle;" src="http://img.constantcontact.com/ui/images1/safe_subscribe_logo.gif" alt="Privacy by SafeSubscribe"/>
+<img style="display:inline-block;vertical-align:middle;" src="/assets/safe_subscribe.gif" alt="Privacy by SafeSubscribe"/>
 </form>
 </p>
 
