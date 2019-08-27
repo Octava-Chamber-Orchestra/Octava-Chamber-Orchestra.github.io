@@ -29,10 +29,14 @@ To recieve updates from Octava, enter your email address:
 
 ## Contact
 
-***The Octava Chamber Orchestra***\
-PMB #437\
-4320 196th SW #B\
-Lynnwood, WA 98036-6754
+<p>
+    <address>
+        <strong style="font-style:italic;">The Octava Chamber Orchestra</strong><br>
+        PMB #437<br>
+        4320 196th SW #B<br>
+        Lynnwood, WA 98036-6754
+    </address>
+</p>
 
 [info@octavachamberorchestra.com](info@octavachamberorchestra.com)
 
