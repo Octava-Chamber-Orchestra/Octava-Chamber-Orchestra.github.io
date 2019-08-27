@@ -42,16 +42,16 @@ To recieve updates from Octava, enter your email address:
 
 ## Board Members
 
-**Matthew Weiss** *president*\
-**Trevor Lutsenhiser** *vice president*\
-**Brant Allen** *secretary*\
-**Lesley Petty** *treasurer*
+**Matthew Weiss** *president*  
+**Trevor Lutsenhiser** *vice president*  
+**Brant Allen** *secretary*  
+**Lesley Petty** *treasurer*  
 
-**Ian Alvarez** *educational outreach*\
-**Steven Noffsinger** *personnel manager*
+**Ian Alvarez** *educational outreach*  
+**Steven Noffsinger** *personnel manager*  
 
-**Beverly Weiss** *advisor*\
-**Chris Worswick** *advisor*\
-**Charlene Utt** *advisor*\
-**Jason Kuo** *advisor*\
+**Beverly Weiss** *advisor*  
+**Chris Worswick** *advisor*  
+**Charlene Utt** *advisor*  
+**Jason Kuo** *advisor*  
 **Terri Sandys** *advisor*
