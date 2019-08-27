@@ -1,20 +1,10 @@
 ---
 layout: page
 ---
-{% if page.poster_artist %}
-<a href="../poster.jpg" download style="display:block;margin:auto;" class="no-hover">
-    <img class="black-border" src="../poster.jpg" alt="{{ page.title }}">
-</a>
-    {% if page.poster_artist != "anonymous" %}
-        <p style="text-align:center;">
-            Poster by
-            {% if page.poster_artist_url %}
-                <a href="{{ page.poster_artist_url }}">{{ page.poster_artist }}</a>
-            {% else %}
-                {{ page.poster_artist }}
-            {% endif %}
-        </p>
-    {% endif %}
+{% if page.poster %}
+    <a href="../poster.jpg" download style="display:block;margin:auto;" class="no-hover">
+        <img class="black-border" src="../poster.jpg" alt="{{ page.title }}">
+    </a>
 {% endif %}
 <p>
     {% if page.date < site.data.active_concert %}

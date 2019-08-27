@@ -2,9 +2,15 @@
 
 The official website for The Octava Chamber Orchestra: OctavaChamberOrchestra.com
 
+The website can be viewed [here](https://octava-chamber-orchestra.github.io).
+
 ## Basics
 
 This website is hosted using Github pages and is built automatically by Github using the templating tool [Jekyll](https://jekyllrb.com/docs/). Every time a commit (which may be empty) is recieved on the master branch, Github will rebuild the website.
+
+## Naming Files
+
+Files in Jekyll are automatically converted to a nice URL where the spaces are turned to dashes. For most files, spaces words work great. Words in folders should be separated with dashes.
 
 ## Assets
 
@@ -45,16 +51,18 @@ Concert info pages are in the [_concerts](concerts/) folder. They are formatted 
 
 `title`: The title of the page and concert
 
-`date`: The ISO formatted date and time of the concert. Do note that times are 24 hour.
+`date`: The YAML formatted date and time of the concert. Do note that times are 24 hour.
 
-`location`: The name of the concert venue.
+`poster`: Set to `true` if a poster is available to be displayed. The poster must be in the same folder as the concert page and be named `poster.jpg`. If no poster is available, then omit this property.
 
-`location_url`: The website for the concert venue.
+#### `venue`
+
+An object describing the concert venue. It may be omitted, but if it is provided, it must be defined with the following properties:
+
+`name`: The name of the concert venue.
+
+`url`: The website for the concert venue.
 
 `address`: The address of the concert venue.
 
 `phone`: The phone number of the concert venue.
-
-`poster artist`: The artist that designed the poster for the concert. This property is optional and if omitted will simply not display a poster for the concert. To display a poster but not credit an artist, set the value to "anonymous". If this property is present, a file named `poster.jpg` depicting the poster must be present in the same folder as the page.
-
-`poster_artist_url`: The website of the poster artist. If ommitted, when displaying the artist's name, it will not link to anything.
