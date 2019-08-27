@@ -1,0 +1,24 @@
+# A list of sponsors that appear in the header of every page.
+# name: The name of the sponsor i.e. organization.
+# logo: The file name of the logo. Logos for header sponsors are stored in assets/sponsors
+# url: The website of the sponsor.
+-
+  name: 4 Culture
+  logo: 4culture.png
+  url: https://www.4culture.org/
+-
+  name: Tulalip Cares
+  logo: tulalip-cares.png
+  url: https://www.tulalipcares.org/
+-
+  name: Snohomish County Arts Commission
+  logo: snoco-arts.png
+  url: https://www.snocoarts.org/
+-
+  name: Hazel Miller Foundation
+  logo: hazel-miller.png
+  url: http://hazelmillerfoundation.org/
+-
+  name: King County Employee Giving Program
+  logo: egp.jpg
+  url: https://www.kingcounty.gov/audience/employees/giving.aspx

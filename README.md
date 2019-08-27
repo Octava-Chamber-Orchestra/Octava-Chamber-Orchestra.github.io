@@ -10,9 +10,9 @@ This website is hosted using Github pages and is built automatically by Github u
 
 Miscellaneous files such as images, forms, or stylesheets should be put in the `assets` folder. For certain well-structured data such as musicians or concerts, assets for them will reside along with the associated pages.
 
-## Settings
+## Data
 
-Data for various parts of the site is stored in [_data/settings.yml](_data/settings.yml). The active concert date and list of heading sponsors are stored there. See the file for further documentation.
+Data for various parts of the site are stored in [_data/](_data). See the data files for commented documentation.
 
 ## Main Pages
 
