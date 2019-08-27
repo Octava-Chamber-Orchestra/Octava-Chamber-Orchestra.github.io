@@ -17,7 +17,6 @@ We play the music of the masters such as Bach, Corelli, Vivaldi, Mozart, Haydn, 
 
 To recieve updates from Octava, enter your email address:
 
-<p>
 <form style="display:block;" name="ccoptin" action="http://visitor.constantcontact.com/d.jsp" target="_blank" method="post">
 <input type="hidden" name="m" value="1102230219170">
 <input type="hidden" name="p" value="oi">
@@ -25,18 +24,15 @@ To recieve updates from Octava, enter your email address:
 <input type="submit" name="go" value="Go">
 <img style="display:inline-block;vertical-align:middle;" src="/assets/safe_subscribe.gif" alt="Privacy by SafeSubscribe"/>
 </form>
-</p>
 
 ## Contact
 
-<p>
-    <address>
-        <strong style="font-style:italic;">The Octava Chamber Orchestra</strong><br>
-        PMB #437<br>
-        4320 196th SW #B<br>
-        Lynnwood, WA 98036-6754
-    </address>
-</p>
+<address>
+    <strong style="font-style:italic;">The Octava Chamber Orchestra</strong><br>
+    PMB #437<br>
+    4320 196th SW #B<br>
+    Lynnwood, WA 98036-6754
+</address>
 
 [info@octavachamberorchestra.com](info@octavachamberorchestra.com)
 

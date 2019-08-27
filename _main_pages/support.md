@@ -3,6 +3,7 @@ title: Supporting Octava
 menu_title: support
 menu_order: 5
 ---
+# supporting <em class="big">Octava</em>
 <strong class="gist">Help us bring great music to the Pacific Northwest!</strong>
 
 Thanks to the generous financial support offered by our orchestra and audience members, we are able to provide first rate performances of great music in the Pacific Northwest. We are committed to premiering beautiful new works by the world's most talented living composers, as well as continuing to perform standard repertoire loved by all. We support local composers young and old, and feature excellent soloists from our own community and abroad.

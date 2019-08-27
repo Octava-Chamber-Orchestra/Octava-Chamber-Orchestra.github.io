@@ -4,13 +4,12 @@
 // Settings
 
 $text-color: #000;
-
 $link-color: #9b573d;
-$link-hover: #f5dfd6;
+$link-hover: #f5d0c2;
+$accent: #fcf3f0;
+$background: #fffefe;
 
-$container-background: #fffefe;
-$container-border-width: 13px;
-$container-border-radius: 5px;
+$content-margin: 10px;
 
 // Style
 
@@ -23,17 +22,20 @@ $container-border-radius: 5px;
     @include black-border;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     background-image: url("/assets/background.jpg");
     font-family: Times, "Times Roman", "Times New Roman", sans-serif;
     font-size: 13pt;
     color: $text-color;
     overflow-wrap: anywhere;
+    padding: 0;
+    margin: 0;
+    
+    > div {
+        background-color: $background;
+        max-width: 900px;
+        margin: 0px auto;
+    }
 }
 
 input {
@@ -62,7 +64,7 @@ a {
 header {
     // Site banner
     > img {
-        margin: 10px auto;
+        margin: 0 auto;
         display: block;
     }
 
@@ -71,25 +73,27 @@ header {
     
         > p {
             display: inline-block;
-            background-color: $container-background;
-            border: solid 10px $container-background;
-            border-radius: $container-border-radius;
+            background-color: $accent;
+            border: solid 6px $accent;
+            border-radius: 6px;
+            margin: 7px 0;
         }
     }
 
     > div.header-sponsors {
         text-align: center;
+        margin-bottom: 5px;
     
-        > * {
+        > a, form {
             display: inline-block;
-            background-color: $container-background;
-            border: solid 3px $container-background;
+            border: solid 3px transparent;
             border-radius: 3px;
             vertical-align: middle;
             margin: 5px;
     
             &:hover {
                 border-color: $link-hover;
+                background-color: transparent;
             }
         }
     
@@ -105,7 +109,6 @@ header {
 }
 
 nav {
-    margin: 3px 0px;
     text-align: center;
 
     > a {
@@ -114,8 +117,8 @@ nav {
         font-size: 1.1em;
         font-weight: bold;
         text-decoration: inherit;
-        background-color: $container-background;
-        border: solid 3px $container-background;
+        background-color: $accent;
+        border: solid 3px $accent;
         border-radius: 5px;
         padding: 0px 5px;
 
@@ -127,67 +130,45 @@ nav {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    margin: 0 $content-margin;
 
     @at-root {
         h1 {
-            font-size: 2.2em;
+            font-size: 1.9em;
             text-align: center;
             margin: 20px 5px;
         }
 
         h2 {
             font-size: 1.7em;
-            margin-bottom: 7px;
         }
 
         h3 {
             font-size: 1.4em;
-            margin-bottom: 5px;
         }
 
         h4 {
             font-size: 1.3em;
-            margin-bottom: 5px;
         }
 
         h5 {
             font-size: 1.2em;
-            margin-bottom: 4px;
         }
 
         h6 {
             font-size: 1.1em;
-            margin-bottom: 4px;
         }
     }
 }
 
-main > div {
-    background-color: $container-background;
-    border: solid 13px $container-background;
-    border-radius: 5px;
-    margin: 10px auto;
+main {
+    margin: 0 auto;
+    padding: 0 0 100px;
     max-width: 700px;
 
-    p {
-        margin-bottom: 20px;
+    p, form, address {
+        margin: 10px $content-margin 18px;
     }
-
-    h1 {
-        font-size: 1em;
-        ::before {
-            content: "!!Don't use top-level headings!! ";
-            color: red;
-        }
-    }
-}
-
-ul {
-    margin: 0px 0px 10px 20px;
-}
-
-li {
-    margin-bottom: 10px;
 }
 
 strong.gist {
@@ -206,7 +187,7 @@ div.musicians {
 
     > p {
         max-width: 200px;
-        margin: 5px;
+        margin: 10px 15px;
         display: inline-block;
         vertical-align: middle;
 
@@ -230,9 +211,13 @@ address {
     font-style: normal;
 }
 
+.big {
+    font-size: 1.5em;
+}
+
 footer {
     > p {
-        margin: 10px 5px;
+        margin: 14px $content-margin;
         text-align: center;
         font-size: 0.7em;
         color: #000000cc;
