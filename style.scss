@@ -34,6 +34,7 @@ body {
     > div {
         background-color: $background;
         max-width: 900px;
+        min-height: 100vh;
         margin: 0px auto;
     }
 }
@@ -163,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     margin: 0 auto;
-    padding: 0 0 100px;
+    padding: 0 0 10px;
     max-width: 700px;
 
     p, form, address {
