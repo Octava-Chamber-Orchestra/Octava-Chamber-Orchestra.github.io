@@ -2,21 +2,28 @@
 layout: page
 ---
 {% if page.poster %}
-    <a href="../poster.jpg" download style="display:block;margin:auto;" class="no-hover">
-        <img class="black-border" src="../poster.jpg" alt="{{ page.title }}">
-    </a>
+    <p>
+        <a href="../poster.jpg" download style="display:block;margin:auto;" class="no-hover">
+            <img class="black-border" src="../poster.jpg" alt="{{ page.title }}">
+        </a>
+    </p>
 {% endif %}
 <p>
     {% if page.date < site.data.active_concert %}
         Performed on {{ page.date | date: "%B %-d, %Y"}}
     {% else %}
-        {{ page.date | date: "%A, %B %-d %-I:%M%P" }}
+        <strong>{{ page.date | date: "%A, %B %-d %-I:%M%P" }}</strong>
     {% endif %}
-    {% if page.location %}
+    {% if page.venue %}
+        at 
+        {% if page.venue.url %}
+            <a href="{{ page.venue.url }}">{{ page.venue.name }}</a>
+        {% else %}
+            {{ page.venue.name }}
+        {% endif %}
         <br>
-        <a href="{{ page.location_url }}">{{ page.location }}</a>
-        <br>
-        {{ page.address }}
+        {{ page.venue.address }}
+        {% if page.venue.phone %} <br> {{ page.venue.phone }} {% endif %}
     {% endif %}
 </p>
 {{ content }}

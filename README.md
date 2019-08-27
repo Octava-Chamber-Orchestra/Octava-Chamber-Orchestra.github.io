@@ -61,8 +61,8 @@ An object describing the concert venue. It may be omitted, but if it is provided
 
 `name`: The name of the concert venue.
 
-`url`: The website for the concert venue.
+`url`: The website for the concert venue (optional).
 
 `address`: The address of the concert venue.
 
-`phone`: The phone number of the concert venue.
+`phone`: The phone number of the concert venue (optional).

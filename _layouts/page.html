@@ -19,17 +19,28 @@
       <div class="upcoming-concert">
         <p>
           <span style="font-size:1.2em">
-            Performance: {{ upcoming_concert.date | date: "%A, %B %-d %-I:%M%P" }}
+            Performance on {{ upcoming_concert.date | date: "%A, %B %-d at %-I:%M%P" }}
           </span><br>
           <a style="font-size:1.5em;font-weight:bold;" href="{{ upcoming_concert.url }}">
             {{ upcoming_concert.title }}
           </a><br>
-          at
-          <a href="{{ upcoming_concert.location_url }}">
-            {{ upcoming_concert.location }}
-          </a><br>
-          {{ upcoming_concert.address }}<br>
-          {{ upcoming_concert.phone }}
+          {% assign venue = upcoming_concert.venue %}
+          {% if venue %}
+            at
+            {% if venue.url %}
+              <a href="{{ upcoming_concert.venue.url }}">
+                {{ venue.name }}
+              </a>
+            {% else %}
+              {{ venue.name }}
+            {% endif %}
+            <br>
+            {{ upcoming_concert.venue.address }}
+            {% if venue.phone %}
+              <br>
+              {{ upcoming_concert.venue.phone }}
+            {% endif %}
+          {% endif %}
         </p>
       </div>
       {% endif %}
