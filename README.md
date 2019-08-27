@@ -10,7 +10,7 @@ This website is hosted using Github pages and is built automatically by Github u
 
 ## Naming Files
 
-Files in Jekyll are automatically converted to a nice URL where the spaces are turned to dashes. For most files, spaces words work great. Words in folders should be separated with dashes.
+Files exposed to the end user in Jekyll converts spaces filenames with dashes, so it's a good idea if we stick with the convention.
 
 ## Assets
 
