@@ -12,13 +12,10 @@ excludes:
 collections:
   concerts:
     output: true
-    sort_by: date
   musicians:
     output: true
-    sort_by: priority
   main_pages:
     output: true
-    sort_by: menu_order
     permalink: /:name/
   sub_pages:
     output: true

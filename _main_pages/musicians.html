@@ -8,7 +8,8 @@ menu_order: 3
     See our <a href="/auditions/">auditions</a> page.
 </p>
 <div class="profiles">
-{% for musician in site.musicians %}
+{% assign musicians = site.musicians | sort: "priority" %}
+{% for musician in musicians %}
 <p>
     {% if musician.photo %}
         <img src="{{ musician.url | replace: "bio/","photo.jpg" }}" alt="{{ musician.title }}">

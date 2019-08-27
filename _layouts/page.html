@@ -11,6 +11,7 @@
       <img src="/assets/logo.jpg" alt="The Octava Chamber Orchestra with Maestro Johan Louwersheimer">
       {% assign upcoming_concert = 
         site.concerts |
+        sort: "date" |
         where_exp:"concert","concert.date > site.data.settings.concert_date" |
         first
       %}
@@ -40,7 +41,8 @@
       </div>
       {% endif %}
       <nav>
-        {% for main_page in site.main_pages %}<a href="{{ main_page.url }}">{{ main_page.menu_title }}</a>{% endfor %}
+        {% assign pages = site.main_pages | sort: "menu_order" %}
+        {% for main_page in pages %}<a href="{{ main_page.url }}">{{ main_page.menu_title }}</a>{% endfor %}
       </nav>
       <div id="header-sponsors">
         {% for sponsor in site.data.settings.header_sponsors %}<a href="{{ sponsor.url }}"><img src="/assets/header-sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}"></a>{% endfor %}<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
