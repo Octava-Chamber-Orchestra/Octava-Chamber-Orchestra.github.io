@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("background.jpg");
+    background-image: url("/assets/background.jpg");
     font-family: Times, "Times Roman", "Times New Roman", sans-serif;
     font-size: 13pt;
     color: #000;
