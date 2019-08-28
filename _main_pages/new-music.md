@@ -16,7 +16,7 @@ If you are a composer interested in having Octava premiere your work, please ema
 
 Please bear in mind that we are a Chamber Orchestra with a string size of 4-6 first violins, 3-5 second violins, 2-4 violas, 2-3 cellos, and 1-2 basses.
 
-Winds are 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2-4 horns, 2-3 trumpets.
+Winds are 2 flutes, 2 oboes, 2 clarinets, 2 bassoons, 2 horns, 2 trumpets.
 
 Percussion is 1 timpani player and possibly one extra percussion player.
 
