@@ -15,7 +15,7 @@ menu_order: 3
 {% for musician in musicians %}
 <p>
     {% if musician.photo %}
-        <img src="{{ musician.url | replace: "bio/","photo.jpg" }}" alt="{{ musician.title }}">
+        <img src="{{ musician.url }}.jpg" alt="{{ musician.title }}">
     {% endif %}
     <a href="{{ musician.url }}">{{ musician.title }}</a>
     <span>

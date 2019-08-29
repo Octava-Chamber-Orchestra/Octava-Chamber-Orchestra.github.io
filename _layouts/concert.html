@@ -3,8 +3,8 @@ layout: page
 ---
 <h1>{{ page.title }}</h1>
 {% if page.poster %}
-    <a href="../poster.jpg" download style="display:block;margin:0 10 auto;" class="no-hover">
-        <img class="black-border" src="../poster.jpg" alt="{{ page.title }}">
+    <a href="{{ page.url }}.jpg" download style="display:block;margin:0 10 auto;" class="no-hover">
+        <img class="black-border" src="{{ page.url }}.jpg" alt="{{ page.title }}">
     </a>
 {% endif %}
 <p>

@@ -34,9 +34,9 @@ Any miscellaneous page that should not be in the menu bar and isn't some other s
 
 ### Musicians
 
-Bios for musicians live in the [_musicians](_musicians/) folder. Bios must adhere to the proper file structure in order for the templates to work properly. Each musician entry should be its own subfolder. The main bio must be in a file named `bio.md`. If a photo is provided, it must be named `photo.jpg`.
+Bios for musicians live in the [_musicians](_musicians/) folder. Each bio must be accompanied by a `.jpg` file with the same name as the musician bio.
 
-The front matter properties for `bio.md` are as follows:
+The front matter properties are as follows:
 
 `title`: The title for the page and the name of the musician.
 
@@ -53,7 +53,7 @@ Concert info pages are in the [_concerts](concerts/) folder. They are formatted 
 
 `date`: The YAML formatted date and time of the concert. Do note that times are 24 hour.
 
-`poster`: Set to `true` if a poster is available to be displayed. The poster must be in the same folder as the concert page and be named `poster.jpg`. If no poster is available, then omit this property.
+`poster`: Set to `true` if a poster is available to be displayed. The poster must be in the same folder as the concert page and have the same name except with `.jpg` as the extension. If no poster is available, then omit this property.
 
 #### `venue`
 

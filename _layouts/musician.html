@@ -3,7 +3,7 @@ layout: page
 ---
 <h1>{{ page.title }}</h1>
 {% if page.photo %}
-<img class="black-border" src="../photo.jpg" alt="{{ page.title }}" style="display:block;margin:auto;">
+<img class="black-border" src="{{ page.url }}.jpg" alt="{{ page.title }}" style="display:block;margin:auto;">
 {% endif %}
 <strong style="display:block;text-align:center;font-style:italic;font-size:1.3em;margin:10px 0px;">{{ page.role }}</strong>
 {{ content }}

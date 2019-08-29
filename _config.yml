@@ -4,22 +4,22 @@ timezone: America/Los_Angeles
 # Necessary for concerts set in the future to be displayed.
 future: true
 
-permalink: pretty
-
 excludes:
   - README.md
 
 collections:
   concerts:
     output: true
+    permalink: /:path
   musicians:
     output: true
+    permalink: /:path
   main_pages:
     output: true
-    permalink: /:name/
+    permalink: /:path
   sub_pages:
     output: true
-    permalink: /:name/
+    permalink: /:path
 
 defaults:
   -
