@@ -25,6 +25,8 @@ $content-margin: 10px;
 
 body {
     background-image: url("/assets/background.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
     font-family: Times, "Times Roman", "Times New Roman", sans-serif;
     font-size: 13pt;
     color: $text-color;
@@ -182,16 +184,20 @@ strong.gist {
 }
 
 div.musicians {
-    font-size: 1.1em;
     text-align: center;
     font-weight: bold;
     font-style: italic;
 
     > p {
-        max-width: 200px;
-        margin: 10px 15px;
+        max-width: 150px;
+        margin: 10px 5px;
         display: inline-block;
         vertical-align: middle;
+
+        @media (max-width: 330px) {
+            margin: 10px 0;
+            max-width: 200px;
+        }
 
         > * {
             display: block;
