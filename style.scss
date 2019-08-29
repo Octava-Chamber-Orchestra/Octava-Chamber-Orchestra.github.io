@@ -16,6 +16,7 @@ $content-margin: 10px;
 @mixin black-border {
     border: solid 2px #000;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 
 .black-border {
@@ -33,7 +34,7 @@ body {
     
     > div {
         background-color: $background;
-        max-width: 900px;
+        max-width: 823px;
         min-height: 100vh;
         margin: 0px auto;
     }
