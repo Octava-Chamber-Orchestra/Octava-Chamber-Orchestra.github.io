@@ -18,7 +18,7 @@ Miscellaneous files such as images, forms, or stylesheets should be put in the `
 
 ## Data
 
-Data for various parts of the site are stored in [_data/](_data). See the data files for commented documentation.
+Data for various parts of the site are stored in [_data](_data/). See the data files for commented documentation.
 
 ## Collections
 
@@ -60,7 +60,7 @@ order: 0
 
 ### Concerts
 
-Concert info pages are in the [_concerts](concerts/) folder. The markdown content can cotain a short description of the concert or credit a poster artist. Here is an example frontmatter for a concert:
+Concert info pages are in the [_concerts](_concerts/) folder. The markdown content can cotain a short description of the concert or credit a poster artist. Here is an example frontmatter for a concert:
 
 ```YAML
 # The name for the concert
