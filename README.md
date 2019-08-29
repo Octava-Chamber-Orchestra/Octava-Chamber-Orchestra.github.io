@@ -1,8 +1,8 @@
 # The Octava Chamber Orchestra Website
 
-The official website for The Octava Chamber Orchestra: OctavaChamberOrchestra.com
+The official website for The Octava Chamber Orchestra: <http://OctavaChamberOrchestra.com>
 
-The website can be viewed [here](https://octava-chamber-orchestra.github.io).
+The website can be viewed at <https://octava-chamber-orchestra.github.io>.
 
 ## Basics
 
@@ -34,35 +34,111 @@ Any miscellaneous page that should not be in the menu bar and isn't some other s
 
 ### Musicians
 
-Bios for musicians live in the [_musicians](_musicians/) folder. Each bio must be accompanied by a `.jpg` file with the same name as the musician bio.
+Bios for musicians live in the [_musicians](_musicians/) folder. Here is an example frontmatter for a musician bio:
 
-The front matter properties are as follows:
+```YAML
+# The name of the musician
+title: Example Musician
 
-`title`: The title for the page and the name of the musician.
+# Their role / instrument in Octava
+role: Composer
 
-`role`: The role that the musician takes in Octava (E.g. Composer, Violist, Concertmaster).
+# Set this to true to show a photo with the same file name, but with the `.jpg` extension.
+# If no photo is available, then omit this property.
+photo: true
 
-`priority`: A number indicating the sort order for the musician on the musicians page. Lower numbers appear first, and it can be negative. Musicians with the same priority are sorted alphabetically by file name (so it is important that the folder that `bio.md` resides in reflect their name). Additionally,
-any musician with a priority of 0 or higher will be marked as *Guest artist* on the musicians page.
+# Set this to true to show this musician on the guest artist page. Otherwise omit.
+guest_artist: true
+
+# Set this to true to show this musician on the musicians page. Otherwise omit.
+octava_musician: true
+
+# The order of this musian on the musicians page. Lower values appear earlier. If octava_musician is
+# not set to true, then this should be omitted.
+order: 0
+```
 
 ### Concerts
 
-Concert info pages are in the [_concerts](concerts/) folder. They are formatted automatically depending on whether they are in the past or future. The front matter data is as follows:
+Concert info pages are in the [_concerts](concerts/) folder. The markdown content can cotain a short description of the concert or credit a poster artist. Here is an example frontmatter for a concert:
 
-`title`: The title of the page and concert
+```YAML
+# The name for the concert
+title: Example Concert
 
-`date`: The YAML formatted date and time of the concert. Do note that times are 24 hour.
+# The YAML formatted date and time of the concert
+date: 2000-01-01 19:30
 
-`poster`: Set to `true` if a poster is available to be displayed. The poster must be in the same folder as the concert page and have the same name except with `.jpg` as the extension. If no poster is available, then omit this property.
+# Setting this to true tells the template to display a poster with the same name as this file, but
+# with .jpg as the extension. If no poster is available, simply omit this property.
+poster: true
 
-#### `venue`
+# An object describing the venue of the concert
+venue:
+  # The name of the concert venue
+  name: A Venue
 
-An object describing the concert venue. It may be omitted, but if it is provided, it must be defined with the following properties:
+  # The address of the venue
+  address: 12345 S 6th St, Example, EX 9876
 
-`name`: The name of the concert venue.
+  # The venue's website (This may be omitted)
+  url: http://example.com
 
-`url`: The website for the concert venue (optional).
+  # The phone number of the venue
+  phone: (123) 456-7890
 
-`address`: The address of the concert venue.
+# A list of the pieces played at the concert
+program:
 
-`phone`: The phone number of the concert venue (optional).
+  # The first entry in the program
+  -
+    # The title of the piece
+    title: Piece No. 1
+
+    # The full name of the composer of the piece. If there's a bio available, it will be linked.
+    composer: Full Name
+
+    # A place to indicate the soloist or other details. If none, omit this property.
+    details: Solo by Example
+
+    # A list of movements in the piece. If not available, simply omit this property.
+    movements:
+      - I. Allegro
+      - II. Adagio
+
+  # The second entry in the program, with only the minimum information declared.
+  -
+    title: Piece No. 54
+    composer: Example Two
+
+# The list of musicians playing in the concert, grouped by instrument.
+
+roster:
+
+  # A section
+  -
+    # The name of the section
+    section: Violins
+
+    # The list of people that play the instrument
+    people:
+      -
+        # Name of the player
+        name: The Concertmaster
+
+        # Indicate special details here, or omit.
+        details: Concertmaster
+      -
+        name: The Second in Command
+      -
+        name: Second Chair
+      -
+        name: Yet Another
+        details: Principal Second Violin
+  -
+    section: Oboes
+    people:
+      -
+        name: Single Oboe
+        details: Principal
+```

@@ -1,6 +1,6 @@
 ---
 title: Summer Chamber Music Extravaganza
-date: 2019-07-20T19:30
+date: 2019-07-20 19:30
 poster: true
 
 venue:
