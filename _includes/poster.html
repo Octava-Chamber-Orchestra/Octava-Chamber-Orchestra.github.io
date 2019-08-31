@@ -1,0 +1,10 @@
+{% assign concert = include.concert %}
+{% if concert.poster %}
+    <a href="{{ concert.url }}.jpg" download style="display:block;margin:auto;max-width:600px;" class="no-hover">
+        <img class="black-border" style="width:100%;" src="{{ concert.url }}.jpg" alt="{{ concert.title }}">
+    </a>
+    <p style="text-align:center;margin-top:0;margin-bottom:10px;">
+        {{ concert.poster_credit }}
+        <a href="{% link _sub_pages/poster.md %}">Print a poster</a>
+    </p>
+{% endif %}

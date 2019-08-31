@@ -27,7 +27,7 @@ body {
     background-image: url("/assets/background.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
-    font-family: Times, "Times Roman", "Times New Roman", sans-serif;
+    font-family: Times, "Times Roman", "Times New Roman", serif;
     font-size: 13pt;
     color: $text-color;
     overflow-wrap: anywhere;
@@ -39,12 +39,8 @@ body {
         max-width: 823px;
         min-height: 100vh;
         margin: 0px auto;
+        padding-bottom: 30vh;
     }
-}
-
-input {
-    padding: 5px;
-    margin: 3px 0px;
 }
 
 img {
@@ -62,6 +58,13 @@ a {
 
     &.no-hover:hover {
         background-color: transparent;
+    }
+}
+
+form.mailing-list {
+    input {
+        padding: 5px;
+        margin: 3px 0px;
     }
 }
 
@@ -170,7 +173,7 @@ main {
     padding: 0 0 10px;
     max-width: 700px;
 
-    p, form, address {
+    > p, > form, > address {
         margin: 10px $content-margin 18px;
     }
 }
@@ -221,6 +224,22 @@ address {
 
 .big {
     font-size: 1.5em;
+}
+
+div.ticket {
+    margin: 20px $content-margin 20px $content-margin;
+    span {
+        font-weight: 1.1em;
+        display: inline;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+
+    form {
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
 
 footer {

@@ -1,0 +1,17 @@
+---
+title: The Octava Chamber Orchestra
+menu_title: home
+menu_order: 0
+permalink: /
+---
+
+{% assign upcoming_concert = 
+    site.concerts |
+    sort: "date" |
+    where_exp:"concert","concert.date >= site.data.active_concert" |
+    first
+%}
+
+{% include poster.html concert = upcoming_concert %}
+{% include tickets.html concert = upcoming_concert %}
+<p>See the <a href="{{ concert.url }}">concert page</a> for the program and roster.</p>

@@ -1,17 +1,19 @@
 ---
 layout: page
 ---
-<h1>{{ page.title }}</h1>
-{% if page.poster %}
-    <a href="{{ page.url }}.jpg" download style="display:block;margin:0 10 auto;" class="no-hover">
-        <img class="black-border" src="{{ page.url }}.jpg" alt="{{ page.title }}">
-    </a>
+{% if page.date >= site.data.active_concert %}
+    {% assign future = true %}
+{% else %}
+    {% assign future = false %}
 {% endif %}
+
+<h1>{{ page.title }}</h1>
+{% include poster.html concert = page %}
 <p>
-    {% if page.date < site.data.active_concert %}
-        Performed on {{ page.date | date: "%B %-d, %Y"}}
-    {% else %}
+    {% if future %}
         <strong>{{ page.date | date: "%A, %B %-d %-I:%M%P" }}</strong>
+    {% else %}
+        Performed on {{ page.date | date: "%B %-d, %Y"}}
     {% endif %}
     {% if page.venue %}
         at 
@@ -25,4 +27,18 @@ layout: page
         {% if page.venue.phone %} <br> {{ page.venue.phone }} {% endif %}
     {% endif %}
 </p>
-{{ content }}
+
+{% if future %}
+{% include tickets.html concert = page %}
+{% endif %}
+
+{% if page.program %}
+    <h2>Program</h2>
+    {% include program.html concert = page %}
+{% endif %}
+
+{% if page.roster %}
+    <h2>Roster</h2>
+    <p>Section members listed alphabetically.</p>
+    {% include roster.html concert = page %}
+{% endif %}

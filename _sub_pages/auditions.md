@@ -9,4 +9,4 @@ We are currently auditioning for the following sections:
 <p>Viola</p>
 </div>
 
-If you would like to schedule an audition, please email us at [info@octavachamberorchestra.com](info@octavachamberorchestra.com).
+If you would like to schedule an audition, please email us at [info@octavachamberorchestra.com](info@ctavachamberorchestra.com).

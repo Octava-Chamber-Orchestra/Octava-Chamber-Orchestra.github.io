@@ -17,7 +17,7 @@ We play the music of the masters such as Bach, Corelli, Vivaldi, Mozart, Haydn, 
 
 To recieve updates from Octava, enter your email address:
 
-<form style="display:block;" name="ccoptin" action="http://visitor.constantcontact.com/d.jsp" target="_blank" method="post">
+<form class="mailing-list" name="ccoptin" action="http://visitor.constantcontact.com/d.jsp" target="_blank" method="post">
 <input type="hidden" name="m" value="1102230219170">
 <input type="hidden" name="p" value="oi">
 <input style="display:inline-block;width:200px;max-width:100%;" type="text" name="ea">

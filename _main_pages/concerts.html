@@ -12,6 +12,7 @@ menu_title: concerts
 {% for concert in upcoming_concerts %}
     <h3><a href="{{ concert.url }}">{{ concert.title }}</a></h3>
     <p>{{ concert.date | date: "%A, %B %-d %-I:%M%P" }}</p>
+    {% include program.html concert = concert %}
 {% endfor %}
 <h2>Past Concerts</h2>
 {% assign past_concerts = concerts | where_exp: "concert", "concert.date < site.data.active_concert" | reverse %}

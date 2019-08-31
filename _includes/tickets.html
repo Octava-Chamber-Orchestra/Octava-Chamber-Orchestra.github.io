@@ -1,0 +1,71 @@
+{% assign concert = include.concert %}
+{% if concert.tickets_description %}
+    <p id="info">{{ concert.tickets_description }}</p>
+    <p><a href="{% link _main_pages/about.md %}">Join our Mailing List</a></p>
+{% endif %}
+
+{% assign tickets = concert.tickets %}
+{% if tickets %}
+    <h2>Discount Advance Tickets Online</h2>
+    <p><img src="{% link assets/paypal.gif %}" alt="PayPal"></p>
+    {% for ticket in tickets %}
+        <div class="ticket">
+            <form
+                target="paypal"
+                action="https://www.paypal.com/cgi-bin/webscr"
+                method="post">
+                <input
+                    type="image"
+                    src="{% link assets/add-to-cart.gif %}"
+                    name="submit"
+                    alt="Add to cart">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="cmd" value="_cart">
+                <input
+                    type="hidden"
+                    name="business"
+                    value="info@OctavaChamberOrchestra.com">
+                <input
+                    type="hidden"
+                    name="item_name"
+                    value="{{
+                            ticket.type
+                        }} {{
+                            concert.date | date: "%a %b %-d %Y %-I:%M%P"
+                        }} Ticket for The Octava Chamber Orchestra">
+                <input type="hidden" name="amount" value="{{ ticket.price }}">
+                <input type="hidden" name="shipping" value="0.00">
+                <input type="hidden" name="buyer_credit_promo_code" value="">
+                <input type="hidden" name="buyer_credit_product_category" value="">
+                <input type="hidden" name="buyer_credit_shipping_method" value="">
+                <input type="hidden" name="buyer_credit_user_address_change" value="">
+                <input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="no_note" value="1">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="tax" value="0.00">
+                <input type="hidden" name="lc" value="US">
+                <input type="hidden" name="bn" value="PP-ShopCartBF">
+            </form><span>
+                ${{ ticket.price }}
+                {{ ticket.type }}
+                Ticket
+                {{ concert.date | date: "%a %B %-d" }}
+            </span>
+        </div>
+    {% endfor %}
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="info@OctavaChamberOrchestra.com">
+        <input
+            type="image"
+            src="{% link assets/view-cart.gif %}"
+            name="submit"
+            alt="View Cart">
+        <input type="hidden" name="display" value="1">
+    </form>
+    <p>
+        A few minutes after purchasing Advance Tickets using PayPal, you will receive an email
+        receipt from PayPal. Please present this receipt at the ticket desk the day of the
+        performance.
+    </p>
+{% endif %}

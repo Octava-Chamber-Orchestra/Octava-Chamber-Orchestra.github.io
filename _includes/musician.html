@@ -1,0 +1,7 @@
+{% assign name = include.name %}
+{% assign musician = site.musicians | where: "title", name | first %}
+{% if musician %}
+<a href="{{ musician.url }}">{{ name }}</a>
+{% else %}
+{{ name }}
+{% endif %}

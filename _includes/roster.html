@@ -1,0 +1,13 @@
+{% comment %} Outputs the roster of a concert. {% endcomment %}
+{% for section in include.concert.roster %}
+    <p>
+        <strong>{{ section.section }}</strong>
+        {% for person in section.people %}
+            <br>
+            {% include musician.html name = person.name %}{% if person.details %}<em>
+                    - {{ person.details }}
+                </em>
+            {% endif %}
+        {% endfor %}
+    </p>
+{% endfor %}
