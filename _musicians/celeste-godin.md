@@ -1,0 +1,8 @@
+---
+title: Celeste Godin
+role: Soprano
+photo: true
+guest_artist: true
+---
+
+Celeste Godin underwent her musical training at Pacific Lutheran University. There, she performed in opera workshops as a chorus member and in orchestra pits, in scenes (notably as Blanche in Previn’s A Streetcar Named Desire), and in mainstage productions (Semele in Handel’s Semele, Lady Billows in Britten’s Albert Herring). In the Spring of 2011, she was featured as a student soloist in concert with the University Symphony Orchestra. She completed her music education degree (specializing in the secondary choral setting) in the fall of 2011. Last season, she was featured as a young artist with Tacoma Opera, and performed as a chorus member in Vashon Opera's production of Eugene Onegin. Over the summer she appeared as a featured soloist for the Icicle Creek Chamber Music Festival, performed a number of scenes with the Accademia d'Amore, and premiered the work One Thousand Paper Cranes for Japan for Opera From Scratch in Halifax, NS. She returned to the Tacoma Young Artist Program with new director, Noel Koran, for the 2012-2013 season. In 2013, she received an honorable mention in the Coeur d'Alene Symphony Young Artist Contest. She also appeared in the Seattle Opera Guild Previews for La Boheme as Mimi. Throughout the year, she has been teaching general music at the Sammamish Montessori School and acting as an intern conductor for the Seattle Bach Choir.

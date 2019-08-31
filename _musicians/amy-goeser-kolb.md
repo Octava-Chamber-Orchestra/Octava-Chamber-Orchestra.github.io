@@ -1,0 +1,12 @@
+---
+title: Amy Goeser Kolb
+role: Oboist
+photo: true
+guest_artist: true
+---
+
+Amy Goeser Kolb is assistant professor of oboe and theory at the University of Oregon School of Music and Dance. Prior to her appointment at Oregon, she was a faculty member at Wichita State University, a member of the Lieurance Woodwind Quintet, principal oboe of the Wichita Symphony and director of development for Chamber Music at The Barn in Wichita KS.
+
+As an advocate of new music, she has commissioned, premiered, and recorded more than 100 new works, collaborating with composers from Germany, Japan, the Netherlands, Central and South America, and the United States. She has been the recipient of commissioning grants from The American Composers Forum, the Jerome Foundation, Meet The Composer, the German Government, and private donors. She spent nearly ten years in Germany premiering new works written for her and Trio Akkobasso (oboe, accordion, double bass). She has recorded for Deutsche Gramophone, WDR (West German Radio), Koch/Schwann/Aulos, Antes, and Equilibrium Labels. While in Europe, she freelanced with many orchestras and was a member of the Freiburg Philharmonic Orchestra, the Southwest Philharmonic, Ensemble Cologne, and Ensemble Avance in Germany. In 1993 she traveled extensively throughout Japan and Canada with The Takagaki Koto Ensemble of Japan.
+
+Still relatively new to the Pacific Northwest, she enjoys free-lancing with the Eugene Symphony Orchestra, Oregon Mozart Players, the Oregon Symphony in Portland and Portland Opera and Ballet and is a member of the Eugene Opera Orchestra. During the summers she performs with the Oregon Bach Festival and Chamber Music at The Barn in Kansas and has appeared at the Cabrillo Music Festival of Contemporary Music in Santa Cruz, CA and the Cascade Summer Music Festival in Bend, OR. She has also become a guest lecturer for the Elderhostel program coordinated through the Oregon Bach Festival and has recently offered master classes and recitals at Yale University, The Manhattan School of Music, The Juilliard School of Music, the University of Minnesota, the Wisconsin of Wisconsin-Madison, Berklee College, MA and Cal Arts in Los Angeles, CA. She lives in Eugene with husband and cellist, Andrew and 3 year-old Alex, a real Stravinsky lover!

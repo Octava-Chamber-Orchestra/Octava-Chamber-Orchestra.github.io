@@ -1,0 +1,10 @@
+---
+title: Jeffrey Brooks
+role: Clarinetist
+photo: true
+guest_artist: true
+---
+
+Jeffrey Brooks (a.k.a. clarinetmonster) has been Principal Clarinetist of the Yakima Symphony Orchestra since 2000 and has performed as soloist with the Everett, Yakima, Walla Walla, and Wenatchee Symphony Orchestras, and as substitute clarinetist for Seattle Symphony, Tacoma Symphony, Tacoma Opera, and Rainier Symphony. Some of the artists with whom Jeff has worked include: Eddie Daniels, Jon Pizzarelli, Karyn Allison, the Brubeck Brothers, Allen Vizzutti, Doc Severinsen, Dick Hyman, Mark O’Conner, Marvin Hamlisch, Abe Most, and Lenny Price.
+
+In February of 2008, Jeff gave the world premiere performance of the Weiss Clarinet Concerto with members of the Octava Chamber Orchestra, Seattle Philharmonic Orchestra, Lake Union Civic Orchestra, and friends after only three days advanced notice, due to the regular soloist’s illness. A video of this exciting performance can be found at [WeissConcerto.com](http://www.weissconcerto.com/). Jeff holds a BA from Central Washington University and his teachers include Eddie Daniels and Laura DeLuca. Jeff was the adjunct clarinet lecturer at CWU in Ellensburg, WA and lives in Olympia, WA, with his wife and two cats. In addition to his orchestral and freelancing work, Jeff is a recitalist, and jazz performer/composer. Jeff recorded his first jazz album, “One Take” in March of 2008, which was released on July 26, 2008 at the Jazz in the Valley Festival in Ellensburg, WA and is available for purchase online at [www.clarinetmonster.com](http://www.clarinetmonster.com/), [itunes.com](https://www.itunes.com/), and [cdbaby.com](https://cdbaby.com/). Jeff is currently attending FSU in Tallahassee where he is a teaching assistant for Dr. Frank Kowalsky and is working towards his MM in Clarinet Performance. Jeffrey Brooks can be contacted at <clarinetmonster@gmail.com>, can be found on myspacetv.com, youtube.com, facebook.com, and [www.clarinetmonster.com](http://www.clarinetmonster.com/).

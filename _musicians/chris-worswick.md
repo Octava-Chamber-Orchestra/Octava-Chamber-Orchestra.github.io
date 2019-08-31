@@ -3,6 +3,7 @@ title: Chris Worswick
 role: Principal Cello
 photo: true
 octava_musician: true
+guest_artist: true
 order: 4
 ---
 

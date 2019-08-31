@@ -3,6 +3,7 @@ title: Trevor Lutsenhiser
 role: Principal Second Violin
 photo: true
 octava_musician: true
+guest_artist: true
 order: 3
 ---
 

@@ -3,6 +3,7 @@ title: Matthew Weiss
 role: Concertmaster
 photo: true
 octava_musician: true
+guest_artist: true
 order: 2
 ---
 
@@ -18,4 +19,4 @@ Matt is also the concertmaster of the Seattle Bach Cantata Society, assistant co
 
 Matt performed frequently in recital and in live radio broadcasts on [Classical King FM 98.1](http://www.king.org/) with pianist Joel Salsman. The repertoire included works of the great composers such as Mozart, Bach, Beethoven, etc. as well as contemporary Northwest Composers such as Alan Hovhaness, John Verrall, James Beale, Gloria Swisher, and others. Recently, he performed on King FM's Northwest Focus Live with Sean MacLean featuring Nathan Jensen's "Five Lenten Pieces for Violin and Piano", along with Nathan himself on piano.
 
-Matt also has a keen interest in the classical and folk music of India and studied tabla from the world-renowned tabla virtuouso Vishal Nagar of the Delhi gharana, and appeared in recital with Vishal and [Ujwal Nagar](/musicians/ujwal_nagar/bio/), performing a violin lehra in Charukeshi raga as Vishal and Ujwal presented a stunning tabla duet.
+Matt also has a keen interest in the classical and folk music of India and studied tabla from the world-renowned tabla virtuouso Vishal Nagar of the Delhi gharana, and appeared in recital with Vishal and [Ujwal Nagar]({% link _musicians/ujwal-nagar.md %}), performing a violin lehra in Charukeshi raga as Vishal and Ujwal presented a stunning tabla duet.

@@ -2,7 +2,7 @@
     {% for musician in include.list %}
         <p>
             {% if musician.photo %}
-                <img src="{{ musician.url }}.jpg" alt="{{ musician.title }}">
+                <img src="{{ "/photos" | append: musician.url | append: ".jpg" }}" alt="{{ musician.title }}">
             {% endif %}
             <a href="{{ musician.url }}">{{ musician.title }}</a>
             <span>

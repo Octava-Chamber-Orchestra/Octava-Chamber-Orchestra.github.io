@@ -1,0 +1,20 @@
+---
+title: Charles Robert Stephens
+role: Baritone
+photo: true
+guest_artist: true
+---
+
+Charles Robert Stephens has enjoyed a career spanning a wide variety of roles and styles in opera and concert music. His performances have shown “a committed characterization and a voice of considerable beauty.” (Opera News, 1995) At the New York City Opera he sang the role of Professor Friedrich Bhaer in the New York premiere of Adamo’s Little Women, and was hailed by the New York Times as a “baritone of smooth distinction.” Other New York City Opera roles since his debut as Marcello in 1995 include Frank in Die Tote Stadt, Sharpless in Madame Butterfly, and Germont in La Traviata. He has sung on numerous occasions at Carnegie Hall in a variety of roles with Opera Orchestra of New York, the Oratorio Society of New York, the Masterworks Chorus, and Musica Sacra.
+
+In his twenty years in New York City Mr. Stephens has sung as guest soloist with most of New York’s premiere ensembles including Sacred Music in a Sacred Space, Ascension Music, L’Opera Francais de New York, Brooklyn Academy of Music’s Next Wave Festival, and many others. Now based in Seattle he has sung with Seattle Symphony, Tacoma and Spokane Symphony and Opera Companies, Portland Chamber Orchestra and many other the orchestras and opera companies in the Pacific Northwest. He joined the roster of Seattle Opera in 2010 for the premiere of Amelia by Daron Hagen.
+
+Notable performances include concerts with Pacific Musicworks: Handel’s Esther, Carissimi Staged Cantatas and Monteverdi Vespers. He sang the role of Tiresias in Stefanni’s Niboe, Queen of Thebes with at the Boston Early Music Festival. With the Seattle Symphony he sang Messiah, Beethoven’s Ninth Symphony, Brander in The Damnation of Faust and “Opera Festival.” With the American Classical Orchestra he sang Jesus in Bach's St. Matthew Passion at St. John the Divine in NYC.
+
+On the international stage he has sung Rigoletto at Taipei’s National Theater, Sharpless in Santo Domingo, Germont and Valentin (Faust) in Montevideo, Uruguay, and Montano (Otello) in Mexico City. Concert tours have taken him to France, Russia, and Canada.
+
+In the United States Mr. Stephens has sung leading roles throughout the country, including Rigoletto and Amonasro with El Paso Opera, Germont with Minnesota Opera, Birmingham Opera, Tacoma Opera, Fresno Symphony, and Connecticut Grand Opera, the High Priest in Samson et Delilah with Palm Beach Opera, Figaro in the Barber of Seville with Hawaii Opera and Mobile Opera, Belcore with Helena Symphony and Mobile Opera, Sharpless with Opera Grand Rapids and Buffalo Opera, Gianni Schicchi with Buffalo Opera, Rodrigo in Don Carlo and Count di Luna in Il Trovatore with Boston Bel Canto, Silvio in Pagliacci with Tampa Opera and New Jersey State Opera, Enrico in Lucia di Lammermoor with Connecticut Grand Opera, Guglielmo in Cosi fan Tutte with Arizona Opera, and many others.
+
+Mr. Stephens has worked closely with composers in the preparation and performance of new works for the concert hall and the stage, taking part in many premieres at Lincoln Center and as part of “Regina Resnik Presents” which was televised. He has sung Messiah and the great cantatas and passions each year with such ensembles as the New York Collegium, the Maryland Handel Festival, and Portland Baroque Orchestra. Mr. Stephens has been invited to perform a wide range of works including Elijah, Bloch’s Sacred Service, Carmina Burana, Verdi’s Requiem, and Mahler’s Songs of a Wayfarer with many orchestras including the Hartford Symphony, Colorado Symphony, North Carolina Symphony, American Classical Orchestra, and the Symphony Orchestras of Montevideo, Uruguay and Mexico.
+
+A native of New London, Connecticut, Mr. Stephens received his training at the University of Connecticut, Boston University, the Goldovsky Opera Institute, and the Santa Fe Opera.
