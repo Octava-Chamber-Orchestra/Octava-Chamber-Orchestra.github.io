@@ -34,8 +34,8 @@ Any miscellaneous page that should not be in the menu bar and isn't some other s
 
 ### Musicians
 
-Bios for musicians live in the [_musicians](_musicians/) folder. See the [musician example](_musicians/musician-example.md) for specifying metadata (view the source, not the rendered document).
+Bios for musicians live in the [_musicians](_musicians/) folder. See the [musician example](musician-example.md) for specifying metadata (view the source, not the rendered document).
 
 ### Concerts
 
-Concert info pages are in the [_concerts](_concerts/) folder. See the [concert example](_concerts/concert-example.md) for specifying metadata (view the source, not the rendered document).
+Concert info pages are in the [_concerts](_concerts/) folder. See the [concert example](concert-example.md) for specifying metadata (view the source, not the rendered document).

@@ -6,8 +6,8 @@ future: true
 
 exclude:
   - README.md
-  - _concerts/concert-example.md
-  - _musicians/musician-example.md
+  - concert-example.md
+  - musician-example.md
 
 collections:
   concerts:
