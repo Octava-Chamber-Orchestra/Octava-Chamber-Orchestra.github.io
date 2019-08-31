@@ -1,0 +1,13 @@
+<div class="musicians">
+    {% for musician in include.list %}
+        <p>
+            {% if musician.photo %}
+                <img src="{{ musician.url }}.jpg" alt="{{ musician.title }}">
+            {% endif %}
+            <a href="{{ musician.url }}">{{ musician.title }}</a>
+            <span>
+                {{ musician.role }}
+            </span>
+        </p>
+    {% endfor %}
+</div>

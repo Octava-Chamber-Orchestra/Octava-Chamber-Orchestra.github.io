@@ -1,7 +1,7 @@
 ---
 title: New Music and Octava
 menu_title: new music
-menu_order: 4
+menu_order: 5
 ---
 # New Music and <em class="big">Octava</em>
 <strong class="gist">The Octava Chamber Orchestra is committed to premiering new works of various genres</strong>

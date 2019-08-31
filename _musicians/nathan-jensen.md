@@ -1,8 +1,8 @@
 ---
 title: Nathan Jensen
 role: Composer and Pianist
-priority: 0
 photo: true
+guest_artist: true
 ---
 
 Nathan Jensen attended Pacific Lutheran University as a music major. He transferred to The Evergreen State College where, under an independent contract, he studied musical composition with Timothy Brock.

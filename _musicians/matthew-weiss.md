@@ -1,8 +1,9 @@
 ---
 title: Matthew Weiss
 role: Concertmaster
-priority: -99
 photo: true
+octava_musician: true
+order: 2
 ---
 
 Matthew Weiss graduated from the [University of Washington School of Music](http://www.music.washington.edu/home/) in 1991 earning a degree in Violin Performance while studying with [Steven Staryk](http://en.wikipedia.org/wiki/Steven_Staryk) and serving under the baton of [Maestro Peter Erös](http://www.music.washington.edu/faculty/faculty_bio.php?ID=9). He previously studied violin with [Walter Schwede](http://www.meadowmount.com/faculty/schwede.shtml), [Gwen Thompson](http://www.domaineforget.com/en/academie/bios/thompson_gwen.shtml), Mara Dvonch, Emanuel Zetlin, Denes Zsigmondy, Mari Nakamura, and [Dr. Shinichi Suzuki](http://en.wikipedia.org/wiki/Shinichi_Suzuki_(violinist)). Matt studied music theory and composition with [Ken Benshoof](http://www.kenbenshoof.com/), [Diane Thome](/musicians/), and James Beale at the University of Washington and privately with William McGreal and James William Clarke who also instructed him in piano and conducting, and voice lessons from Jeffrey Moidel.

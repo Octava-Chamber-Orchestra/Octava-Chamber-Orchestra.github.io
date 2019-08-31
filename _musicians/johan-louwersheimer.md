@@ -1,8 +1,9 @@
 ---
 title: Johan Louwersheimer
 role: Music Director
-priority: -100
 photo: true
+octava_musician: true
+order: 1
 ---
 
 Maestro Johan Louwersheimer’s unique musical background and training has provided him with the enviable ability to stand in front of both professional and community orchestras and choirs. Maestro Louwersheimer began his training in conducting in his late thirties, when he received an international scholarship to pursue doctoral studies in conducting at the University of Washington in Seattle. While in Seattle, Maestro Louwersheimer initiated the University Summer Orchestra program, which he conducted for three consecutive summers. In addition, Maestro Louwersheimer toured with the Washington University Symphony and founded the Octava Chamber Orchestra in collaboration with concertmaster Matthew Weiss. With Octava, Maestro Louwersheimer toured Washington and the Fraser Valley. Octava has featured renowned soloists including Bela Siki, and Steven Stark. While at the University of Washington, Maestro Louwersheimer received the Warren Babb Memorial Award.

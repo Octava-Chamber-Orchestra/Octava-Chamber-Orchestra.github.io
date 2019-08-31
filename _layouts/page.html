@@ -13,7 +13,7 @@
           {% assign upcoming_concert = 
             site.concerts |
             sort: "date" |
-            where_exp:"concert","concert.date > site.data.active_concert" |
+            where_exp:"concert","concert.date >= site.data.active_concert" |
             first
           %}
           {% if upcoming_concert %}

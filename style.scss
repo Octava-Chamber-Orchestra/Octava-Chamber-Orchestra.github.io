@@ -137,7 +137,7 @@ nav {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    margin: 0 $content-margin;
+    margin: 0 $content-margin 5px $content-margin;
 
     @at-root {
         h1 {
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         h2 {
-            font-size: 1.7em;
+            font-size: 1.6em;
         }
 
         h3 {
@@ -155,15 +155,15 @@ h1, h2, h3, h4, h5, h6 {
         }
 
         h4 {
-            font-size: 1.3em;
-        }
-
-        h5 {
             font-size: 1.2em;
         }
 
-        h6 {
+        h5 {
             font-size: 1.1em;
+        }
+
+        h6 {
+            font-size: 1.05em;
         }
     }
 }
@@ -202,18 +202,13 @@ div.musicians {
             max-width: 200px;
         }
 
-        > * {
+        > img, a, span {
             display: block;
             margin: auto;
         }
 
         img {
             @include black-border;
-        }
-
-        > small {
-            font-size: 0.8em;
-            font-weight: normal;
         }
     }
 }

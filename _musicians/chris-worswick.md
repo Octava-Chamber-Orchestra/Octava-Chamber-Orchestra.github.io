@@ -1,8 +1,9 @@
 ---
 title: Chris Worswick
 role: Principal Cello
-priority: -97
 photo: true
+octava_musician: true
+order: 4
 ---
 
 Chris Worswick has been playing violoncello and piano from age 9. Since moving to Seattle over 35 years ago, he has studied cello with Richard Aaron, Eva Heinitz and Rajan Krishnaswami, as well as piano with Mark Salman.

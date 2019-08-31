@@ -1,16 +1,15 @@
 {% comment %} Outputs the program of a concert. {% endcomment %}
 {% for piece in include.concert.program %}
+    <h4>{{ piece.title }}</h4>
     <p>
-        <strong>{{ piece.title }}</strong><em>
-            - {% include musician.html name = piece.composer %}
-        </em>
+        by {% include musician.html name = piece.composer %}
         {% if piece.details %}
             <br>
             <em>{{ piece.details }}</em>
         {% endif %}
         {% for movement in piece.movements %}
-            <br>
-            {{ movement }}
+        <br>
+        {{ movement }}
         {% endfor %}
     </p>
 {% endfor %}

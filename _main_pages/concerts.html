@@ -5,8 +5,8 @@ title: Octava Concerts
 menu_order: 2
 menu_title: concerts
 ---
+<h1>Concerts</h1>
 <p>View the posters and programs of <strong><em>Octava</em></strong> concerts.</p>
-<h2>Upcoming Concerts</h2>
 {% assign concerts = site.concerts | sort: "date" %}
 {% assign upcoming_concerts = concerts | where_exp: "concert", "concert.date >= site.data.active_concert" %}
 {% for concert in upcoming_concerts %}

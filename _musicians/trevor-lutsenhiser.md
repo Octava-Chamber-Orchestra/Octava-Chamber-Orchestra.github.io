@@ -1,8 +1,9 @@
 ---
 title: Trevor Lutsenhiser
 role: Principal Second Violin
-priority: -98
 photo: true
+octava_musician: true
+order: 3
 ---
 
 Trevor Lutsenhiser began violin studies at age 5. A 1991 graduate of the University of Washington, he studied with Martin Freidmann and Denes Zsigmondy. Currently he is principal Second Violin for the Seattle Philharmonic, directed by Adam Stern. Trevor is also Concertmaster of the Bellevue Opera under Maestro Alex Innecco, as well as Concertmaster of the Evergreen City Ballet Orchestra. He has served as Concertmaster for the Northwest Lyric Opera in several recent productions. Recently, he was invited to perform as Guest Concertmaster of the 9th Street Philharmonic in Columbia, Missouri.

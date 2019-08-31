@@ -1,8 +1,8 @@
 ---
 title: Frank Halferty
 role: Composer
-priority: 0
 photo: true
+guest_artist: true
 ---
 
 Frank Halferty retired in July 2015 after 39 years in music education. He served the Shoreline School District as District Music Specialist and also taught grades 5-8 Instrumental Music and Elementary General Music. He earned 2 B.A.s, (1976), from Seattle Pacific University in Music Education and Music Theory and Literature and received a Master of Music in Composition from New Mexico State University (1982).

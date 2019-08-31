@@ -4,8 +4,10 @@ timezone: America/Los_Angeles
 # Necessary for concerts set in the future to be displayed.
 future: true
 
-excludes:
+exclude:
   - README.md
+  - _concerts/concert-example.md
+  - _musicians/musician-example.md
 
 collections:
   concerts:

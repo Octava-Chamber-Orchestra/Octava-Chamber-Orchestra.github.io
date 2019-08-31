@@ -5,25 +5,25 @@ title: Musicians of Octava
 menu_title: musicians
 menu_order: 3
 ---
+
 <h1>The Musicians of <em class="big">Octava</em></h1>
 <p style="text-align:center;">
     Want to join <strong><em>Octava</em></strong>?
     See our <a href="/auditions/">auditions</a> page.
 </p>
-<div class="musicians">
-{% assign musicians = site.musicians | sort: "priority" %}
-{% for musician in musicians %}
+{% assign musicians = site.musicians | where: "octava_musician",true | sort: "order" %}
+{% include musicians.html list = musicians %}
+<h2>Personell of the Octava Chamber Orchestra</h2>
+{% assign concert =
+    site.concerts |
+    where_exp: "concert", "concert.date < site.data.active_concert and concert.roster" |
+    sort: "date" |
+    last
+%}
 <p>
-    {% if musician.photo %}
-        <img src="{{ musician.url }}.jpg" alt="{{ musician.title }}">
-    {% endif %}
-    <a href="{{ musician.url }}">{{ musician.title }}</a>
-    <span>
-        {{ musician.role }}
-    </span>
-    {% if musician.priority >= 0 %}
-        <small>Guest artist</small>
-    {% endif %}
+    From our concert on {{ concert.date | date: "%B %-d, %Y"}}.
+    Sections are listed alphabetically.
+    See the <a href="{% link _main_pages/concerts.html %}">concerts page</a> to view the rosters of 
+    other concerts.
 </p>
-{% endfor %}
-</div>
+{% include roster.html concert = concert %}

@@ -1,7 +1,7 @@
 ---
 title: Supporting Octava
 menu_title: support
-menu_order: 5
+menu_order: 6
 ---
 # supporting <em class="big">Octava</em>
 <strong class="gist">Help us bring great music to the Pacific Northwest!</strong>
