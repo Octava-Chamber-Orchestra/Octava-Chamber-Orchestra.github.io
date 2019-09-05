@@ -1,5 +1,5 @@
 ---
-title: Trevor Lutsenhiser
+title: Trevor Lutzenhiser
 role: Principal Second Violin
 photo: true
 octava_musician: true
