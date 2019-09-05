@@ -3,17 +3,15 @@
     <p>
         <strong>{% include musician.html name = piece.by %}: {{ piece.title }}</strong>
         {% if piece.subtitle %}
-            <br>{{ piece.subtitle }}
+            {{ piece.subtitle }}
         {% endif %}
         {% if piece.details %}
             <br><em>{{ piece.details }}</em>
         {% endif %}
-    </p>
-    {% if include.movements and piece.movements %}
-        <p>
+        {% if include.movements and piece.movements %}
             {% for movement in piece.movements %}
-            {{ movement }}<br>
+                <br>{{ movement }}
             {% endfor %}
-        </p>
-    {% endif %}
+        {% endif %}
+    </p>
 {% endfor %}
