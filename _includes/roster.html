@@ -3,10 +3,14 @@
     <h4>{{ section.section }}</h4>
     <p>
         {% for person in section.people %}
-            {% include musician.html name = person.name %}{% if person.details %}<em>
-                    - {{ person.details }}
-                </em><br>
+            {% assign parsed = person | split: " ~ " %}
+            {% assign name = parsed[0] %}
+            {% assign details = parsed[1] %}
+            {% include musician.html name = name %}{% if details %}<em>
+                    - {{ details }}
+                </em>
             {% endif %}
+            <br>
         {% endfor %}
     </p>
 {% endfor %}

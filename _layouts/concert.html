@@ -34,11 +34,11 @@ layout: page
 
 {% if page.program %}
     <h2>Program</h2>
-    {% include program.html concert = page %}
+    {% include program.html concert = page movements = true %}
 {% endif %}
 
 {% if page.roster %}
-    <h2>Roster</h2>
+    <h2>Personnel of the Octava Chamber Orchestra</h2>
     <p>Section members listed alphabetically.</p>
     {% include roster.html concert = page %}
 {% endif %}

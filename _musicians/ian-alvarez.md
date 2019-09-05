@@ -1,5 +1,5 @@
 ---
-title: Ian Alvarex
+title: Ian Alvarez
 role: Percussionist
 photo: true
 guest_artist: true

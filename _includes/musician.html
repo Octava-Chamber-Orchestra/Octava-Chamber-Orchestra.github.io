@@ -1,7 +1,6 @@
-{% assign name = include.name %}
-{% assign musician = site.musicians | where: "title", name | first %}
-{% if musician %}
-<a href="{{ musician.url }}">{{ name }}</a>
-{% else %}
-{{ name }}
-{% endif %}
+{% comment %}
+    Links a musicians name if a bio exists for them.
+    Messy formatting is required to prevent inserted spaces in the output.
+{% endcomment %}{% assign name = include.name %}{% assign
+    musician = site.musicians | where: "title", name | first %}{% if musician %}<a
+    href="{{ musician.url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}

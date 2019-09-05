@@ -51,9 +51,12 @@ program:
     # The title of the piece
     title: Piece No. 1
 
+    # The subtitle of the piece
+    subtitle: for string orchestra
+
     # The composer of the piece. If they exist in the musicians collection, their bio will be linked
     # Thus, to link a bio, you need to use the composer's full name.
-    composer: Example Composer
+    by: Example Composer
 
     # A place to indicate the soloist or other details. If none, omit this property.
     details: with soloist Example
@@ -68,8 +71,8 @@ program:
     title: Piece No. 54
     composer: Example Two
 
-# The list of musicians playing in the concert, grouped by instrument.
-
+# The list of musicians playing in the concert, grouped by instrument. If a name matches with a bio,
+# it will be linked.
 roster:
 
   # A section
@@ -78,38 +81,22 @@ roster:
     section: Violins
 
     # The list of people that play the instrument
+    # use " ~ " followed by text to describe the person.
     people:
-      -
-        # Name of the player
-        name: The Concertmaster
-
-        # Indicate special details here, or omit.
-        details: Concertmaster
-      -
-        name: A Violinist
-      -
-        name: Another Violinist
-      -
-        name: Yet Another
-        details: Principal Second Violin
+      - The Concertmaster ~ Concertmaster
+      - A Violinist
+      - Another Violinist
+      - Yet Another ~ Principal Second Violin
   -
     section: Oboes
-    people:
-      -
-        name: Single Oboe
-        details: Principal
+    people: Single Oboe ~ Principal
   -
     # Consider adding a solists section so that links to bios can be generated for the soloists.
     section: Soloists
-    people:
-      -
-        name: A Soloist
-        details: Instrument
+    people: A Soloist ~ Instrument
   -
     # Generate links to conductors too.
     section: Conductors
     people:
-      -
-        name: A Conductor
-        details: A Piece
+      - A Conductor ~ A Piece
 ---
