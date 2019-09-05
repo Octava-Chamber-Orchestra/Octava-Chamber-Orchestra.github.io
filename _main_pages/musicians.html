@@ -11,14 +11,18 @@ menu_order: 3
     Want to join <strong><em>Octava</em></strong>?
     See our <a href="/auditions/">auditions</a> page.
 </p>
-{% assign musicians = site.musicians | where: "octava_musician",true | sort: "order" %}
+{% assign musicians = site.musicians | where: "octava_musician",btrue | sort: "order" %}
 {% include musicians.html list = musicians %}
 <h2>Personell of the Octava Chamber Orchestra</h2>
+
+{% comment %}
+    Note: "and" may not be used in where_exp due to a bug in github's version of Jekyll
+{% endcomment %}
 {% assign concert =
     site.concerts |
-    where_exp: "concert", "concert.date < site.data.active_concert and concert.roster" |
-    sort: "date" |
-    last
+    where_exp: "concert", "concert.roster" |
+    where_exp: "concert", "concert.date < site.data.active_concert" |
+    sort: "date" | last
 %}
 <p>
     From our concert on {{ concert.date | date: "%B %-d, %Y"}}.
