@@ -11,7 +11,7 @@ menu_order: 3
     Want to join <strong><em>Octava</em></strong>?
     See our <a href="/auditions/">auditions</a> page.
 </p>
-{% assign musicians = site.musicians | where: "octava_musician",btrue | sort: "order" %}
+{% assign musicians = site.musicians | where: "octava_musician", true | sort: "order" %}
 {% include musicians.html list = musicians %}
 <h2>Personell of the Octava Chamber Orchestra</h2>
 
