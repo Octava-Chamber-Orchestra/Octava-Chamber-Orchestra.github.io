@@ -1,8 +1,9 @@
 {% comment %} Outputs the roster of a concert. {% endcomment %}
 {% for section in include.concert.roster %}
-    <h4>{{ section.section }}</h4>
     <p>
+        <strong>{{ section.section }}</strong>
         {% for person in section.people %}
+            <br>
             {% assign parsed = person | split: " ~ " %}
             {% assign name = parsed[0] %}
             {% assign details = parsed[1] %}
@@ -10,7 +11,6 @@
                     - {{ details }}
                 </em>
             {% endif %}
-            <br>
         {% endfor %}
     </p>
 {% endfor %}
