@@ -4,9 +4,17 @@ The official website for The Octava Chamber Orchestra: <http://OctavaChamberOrch
 
 The website can be viewed at <https://octava-chamber-orchestra.github.io>.
 
-## Basics
+## Building
 
 This website is hosted using Github pages and is built automatically by Github using the templating tool [Jekyll](https://jekyllrb.com/docs/). Every time a commit (which may be empty) is recieved on the master branch, Github will rebuild the website.
+
+### Building Locally
+
+To serve the site locally, simply run `bundle exec jekyll s` (note: just running jekyll without bundler will cause errors). If you don't have bundler, it can be installed by running `gem install bundler`. For more information / troubleshooting, see [this page](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
+
+## Changing The Home Page Concert
+
+The home page concert is selected using a date specified in the file [_data/active_concert.yml](_data/active_concert.yml). See the file for more information.
 
 ## Naming Files
 
