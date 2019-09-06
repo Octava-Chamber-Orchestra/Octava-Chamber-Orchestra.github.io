@@ -257,7 +257,8 @@ div.home-sponsors {
     }
 
     > a > img {
-        width: 250px;
+        height: auto;
+        max-height: 150px;
     }
 }
 
