@@ -20,3 +20,8 @@ permalink: /
 {% endif %}
 {% include tickets.html concert = upcoming_concert %}
 <p style="text-align:center;">See the <a href="{{ concert.url }}">concert page</a> for the program and roster.</p>
+<div class="home-sponsors">
+    {% for sponsor in site.data.home_sponsors %}<a href="{{ sponsor.url }}">
+        <img src="/assets/home-sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+    </a>{% endfor %}
+</div>

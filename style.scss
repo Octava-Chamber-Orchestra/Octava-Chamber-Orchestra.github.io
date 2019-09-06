@@ -239,6 +239,28 @@ div.ticket {
     }
 }
 
+div.home-sponsors {
+    text-align: center;
+
+    > a {
+        display: inline-block;
+        border: solid 3px transparent;
+        border-radius: 3px;
+        vertical-align: middle;
+        margin: 5px;
+        box-sizing: border-box;
+
+        &:hover {
+            border-color: $link-hover;
+            background-color: transparent;
+        }
+    }
+
+    > a > img {
+        width: 250px;
+    }
+}
+
 footer {
     > p {
         margin: 14px $content-margin;

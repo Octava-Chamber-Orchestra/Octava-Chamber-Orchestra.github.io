@@ -1,0 +1,20 @@
+# A list of sponsors that appear on the home page.
+# name: The name of the sponsor i.e. organization.
+# logo: The file name of the logo. Logos for header sponsors are stored in assets/sponsors
+# url: The website of the sponsor.
+-
+  name: Nathan Jensen
+  logo: nathan-jensen.jpg
+  url: mailto://doublenorwich@hotmail.com
+-
+  name: King FM
+  logo: king-fm.jpg
+  url: https://www.king.org/
+-
+  name: Jason S. Kuo
+  logo: jason-kuo.jpg
+  url: https://www.studio9509.com/
+-
+  name: Olsen Violins
+  logo: olsen-violins.jpg
+  url: https://olsenviolins.com/
