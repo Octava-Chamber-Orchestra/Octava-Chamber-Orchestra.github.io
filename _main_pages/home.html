@@ -14,7 +14,9 @@ permalink: /
 
 {% include poster.html concert = upcoming_concert %}
 {% if concert.poster != true %}
-    {% include program.html concert = concert %}
+    <div style="text-align:center;font-size:1.3em;">
+        {% include program.html concert = concert %}
+    </div>
 {% endif %}
 {% include tickets.html concert = upcoming_concert %}
-<p>See the <a href="{{ concert.url }}">concert page</a> for the program and roster.</p>
+<p style="text-align:center;">See the <a href="{{ concert.url }}">concert page</a> for the program and roster.</p>

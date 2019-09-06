@@ -1,13 +1,16 @@
+<div style="text-align:center;">
 {% assign concert = include.concert %}
 {% if concert.tickets_description %}
     <p id="info">{{ concert.tickets_description }}</p>
-    <p><a href="{% link _main_pages/about.md %}">Join our Mailing List</a></p>
+    <p><a href="{% link _main_pages/about.md %}#mail">Join our Mailing List</a></p>
 {% endif %}
 
 {% assign tickets = concert.tickets %}
 {% if tickets %}
+    <div style="text-align:center;">
     <h2>Discount Advance Tickets Online</h2>
     <p><img src="{% link assets/paypal.gif %}" alt="PayPal"></p>
+    <div style="display:inline-block;text-align:left;">
     {% for ticket in tickets %}
         <div class="ticket">
             <form
@@ -53,6 +56,7 @@
             </span>
         </div>
     {% endfor %}
+    </div>
     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_cart">
         <input type="hidden" name="business" value="info@OctavaChamberOrchestra.com">
@@ -68,4 +72,6 @@
         receipt from PayPal. Please present this receipt at the ticket desk the day of the
         performance.
     </p>
+    </div>
 {% endif %}
+</div>

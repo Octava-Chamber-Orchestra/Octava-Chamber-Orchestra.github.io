@@ -2,19 +2,21 @@
 {% if include.concert.description %}
     <p>{{ include.concert.description }}</p>
 {% endif %}
+{% if include.movements != true %}<p>{% endif %}
 {% for piece in include.concert.program %}
-    <p>
-        <strong>{% include musician.html name = piece.by %}: {{ piece.title }}</strong>
-        {% if piece.subtitle %}
-            {{ piece.subtitle }}
-        {% endif %}
-        {% if piece.details %}
-            <br><em>{{ piece.details }}</em>
-        {% endif %}
-        {% if include.movements and piece.movements %}
-            {% for movement in piece.movements %}
-                <br>{{ movement }}
-            {% endfor %}
-        {% endif %}
-    </p>
+    {% if include.movements %}<p>{% endif %}
+    <strong>{% include musician.html name = piece.by %}: {{ piece.title }}</strong>
+    {% if piece.subtitle %}
+        {{ piece.subtitle }}
+    {% endif %}
+    {% if piece.details %}
+        <br><em>{{ piece.details }}</em>
+    {% endif %}
+    {% if include.movements and piece.movements %}
+        {% for movement in piece.movements %}
+            <br>{{ movement }}
+        {% endfor %}
+    {% endif %}
+    {% if include.movements %}</p>{% else %}<br>{% endif %}
 {% endfor %}
+{% if include.movements != true %}</p>{% endif %}
