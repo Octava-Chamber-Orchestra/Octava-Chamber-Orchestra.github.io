@@ -5,6 +5,9 @@ title: Example Concert
 # The YAML formatted date and time of the concert
 date: 2020-01-01 19:30
 
+# A brief description describing the content of the concert (optional).
+description: Featuring example music of all kinds.
+
 # Setting this to true tells the template to display a poster with the same name as this file, but
 # with .jpg as the extension. If no poster is available, simply omit this property.
 poster: true

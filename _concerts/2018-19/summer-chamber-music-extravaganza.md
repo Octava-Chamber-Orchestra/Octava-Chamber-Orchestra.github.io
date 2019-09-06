@@ -2,6 +2,8 @@
 title: Summer Chamber Music Extravaganza
 date: 2019-07-20 19:30
 
+description: featuring all New Music in a variety of genres
+
 poster: true
 poster_credit: Poster art by <a href="http://graysky.carbonmade.com/">George Chan</a>.
 
