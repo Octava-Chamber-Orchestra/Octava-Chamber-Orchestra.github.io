@@ -8,6 +8,8 @@ exclude:
   - README.md
   - concert-example.md
   - musician-example.md
+  - Gemfile
+  - Gemfile.lock
 
 collections:
   concerts:
